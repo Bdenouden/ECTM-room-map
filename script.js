@@ -1,81 +1,33 @@
-const data = [
-    {
-        "id": "480",
-        "floor": "LB01",
-        "members": [
-            {
-                "name": "Bram den Ouden",
-                "url": "http://ectm.tudelft.nl/Education/bio.php?id=1345",
-            },
-            {
-                "name": "Michael Chengshang",
-                "url": "http://ectm.tudelft.nl/Education/bio.php?id=1293",
-            },
-            {
-                "name": "Samantha Rice",
-                "url": "http://ectm.tudelft.nl/Education/bio.php?id=1356",
-            },
-            {
-                "name": "Weiping Jiao",
-                "url": "http://ectm.tudelft.nl/Education/bio.php?id=1362",
-            },
-        ],
-    },
-    {
-        "id": "450",
-        "floor": "LB01",
-        "members": [
-            {
-                "name": "Tom Salden",
-                "url": "http://ectm.tudelft.nl/Education/bio.php?id=1347",
-            },
-            {
-                "name": "Hanxing Meng",
-                "url": "http://ectm.tudelft.nl/Education/bio.php?id=1281",
-            },
-            {
-                "name": "Rami Younis",
-                "url": "http://ectm.tudelft.nl/Education/bio.php?id=1283",
-            },
-            {
-                "name": "Esad Beydilli",
-                "url": "http://ectm.tudelft.nl/Education/bio.php?id=1280",
-            },
-        ],
-    },
-    {
-        "id": "420",
-        "floor": "LB01",
-        "members": [{ "name": "Dummy room" }],
-    },
-    {
-        "id": "430",
-        "floor": "LB01",
-        "members": [{ "name": "Dummy room" }],
-    },
-    {
-        "id": "440",
-        "floor": "LB01",
-        "members": [{ "name": "Dummy room" }],
-    },
-    {
-        "id": "460",
-        "floor": "LB01",
-        "members": [{ "name": "Social room" }],
-    },
-    {
-        "id": "140",
-        "floor": "EKL01",
-        "members": [{ "name": "Flex room" }]
-    },
-    {
-        "id": "150",
-        "floor": "EKL01",
-        "members": [{ "name": "Flex room" }]
-    },
-]
+/**
+ * This script provides the data used in the ECTM room map.
+ * Data is contained in a server side json file
+ * 
+ * Bram den Ouden - 20-04-2022
+ */
 
-document.addEventListener('DOMContentLoaded', function () {
+
+fetch("rooms.json")
+    .then(response => response.json())
+    .then(data => docReady(data))
+
+
+function docReady(data) {
+    if (document.readyState === "complete" || document.readyState === "interactive") {
+        console.log('loaded')
+        ready(data)
+    } else {
+        console.log("waiting for DOM")
+        document.addEventListener('DOMContentLoaded', function () {
+            ready(data)
+        }, false);
+    }
+}
+
+
+
+function ready(data) {
+    console.log('ready')
+    console.log(data)
     // sort data by ascending room number
     data.sort((a, b) => (Number(a.id) > Number(b.id) ? 1 : -1)) // Only required if no image like floorplan is used
 
@@ -109,4 +61,4 @@ document.addEventListener('DOMContentLoaded', function () {
         floor.appendChild(clone);
 
     })
-}, false);
+}

@@ -1,0 +1,83 @@
+[
+    {
+        "id": "480",
+        "floor": "LB01",
+        "members": [
+            {
+                "name": "Bram den Ouden",
+                "url": "http://ectm.tudelft.nl/Education/bio.php?id=1345"
+            },
+            {
+                "name": "Michael Chengshang",
+                "url": "http://ectm.tudelft.nl/Education/bio.php?id=1293"
+            },
+            {
+                "name": "Samantha Rice",
+                "url": "http://ectm.tudelft.nl/Education/bio.php?id=1356"
+            },
+            {
+                "name": "Weiping Jiao",
+                "url": "http://ectm.tudelft.nl/Education/bio.php?id=1362"
+            }
+        ]
+    },
+    {
+        "id": "450",
+        "floor": "LB01",
+        "members": [
+            {
+                "name": "Tom Salden",
+                "url": "http://ectm.tudelft.nl/Education/bio.php?id=1347"
+            },
+            {
+                "name": "Hanxing Meng",
+                "url": "http://ectm.tudelft.nl/Education/bio.php?id=1281"
+            },
+            {
+                "name": "Rami Younis",
+                "url": "http://ectm.tudelft.nl/Education/bio.php?id=1283"
+            },
+            {
+                "name": "Esad Beydilli",
+                "url": "http://ectm.tudelft.nl/Education/bio.php?id=1280"
+            }
+        ]
+    },
+    {
+        "id": "440",
+        "floor": "LB01",
+        "members": [
+            {
+                "name":"Shirley Knnan",
+                "url": "http://ectm.tudelft.nl/Education/bio.php?id=1292"
+            }    ,
+            {
+                "name":"Filippo Pfaiffer",
+                "url": "http://ectm.tudelft.nl/Education/bio.php?id=1346"
+            }    ,
+            {
+                "name":"Samhitha Duvvuri",
+                "url": "http://ectm.tudelft.nl/Education/bio.php?id=1419"
+            },
+            {
+                "name":"Nikhil Gupta",
+                "url": "http://ectm.tudelft.nl/Education/bio.php?id=1349"
+            }
+        ]
+    },
+    {
+        "id": "460",
+        "floor": "LB01",
+        "members": [{ "name": "Social room" }]
+    },
+    {
+        "id": "140",
+        "floor": "EKL01",
+        "members": [{ "name": "Flex room" }]
+    },
+    {
+        "id": "150",
+        "floor": "EKL01",
+        "members": [{ "name": "Flex room" }]
+    }
+]
