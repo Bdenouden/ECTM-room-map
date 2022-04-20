@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.rawgit.com/Chalarangelo/mini.css/v3.0.1/dist/mini-default.min.css">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+    <link rel="icon" type="image/png"
+        href="https://www.tudelft.nl/typo3conf/ext/tud_styling/Resources/Public/img/favicon-32x32.png" sizes="32x32">
+    <title>Floor map</title>
+</head>
+
+<body>
+    <header style="height:unset; padding-bottom: unset; padding-top:1rem">
+        <a href="#" class="logo"><img src="./tudelft_logo.svg"></a>
+        <a href="#" class="button">Research</a>
+        <a href="#" class="button">Education</a>
+        <a href="#" class="button">People</a>
+        <a href="#" class="button">Infrastructure</a>
+        <a href="#" class="button">Publications</a>
+        <a href="#" class="button">Events</a>
+        <a href="#" class="button">Contact</a>
+        <button>Download</button>
+        <div class="row" style="height: 3rem;background-color: #6EBBD5;">
+            <h4 class="subtitle">Electronic Components, Technolgy and Materials</h4>
+        </div>
+    </header>
+
+    <div class="container">
+        <div class="row">
+            <h1>ECTM floor map</h1>
+        </div>
+        <div class="row">
+            <fieldset class="col-sm-12">
+                <legend>
+                    <h2> LB01</h2>
+                </legend>
+                <div class="row" data-id="LB01">
+                    <template id="room-template">
+                        <div class="card room" data-id="" style="align-self: unset;">
+                            <div class="section">
+                                <h3 class="room-title"></h3>
+                                <ul class="room-members">
+                                </ul>
+                            </div>
+                        </div>
+                    </template>
+                </div>
+            </fieldset>
+        </div>
+        <div class="row">
+            <fieldset class="col-sm-12">
+                <legend>
+                    <h2> EKL01</h2>
+                </legend>
+                <div class="row" data-id="EKL01">
+                </div>
+            </fieldset>
+        </div>
+
+
+    </div>
+
+</body>
+
+</html>
