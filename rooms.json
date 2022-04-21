@@ -44,40 +44,95 @@
         ]
     },
     {
+        "id": "430",
+        "floor": "LB01",
+        "members": [
+            {
+                "name": "Jeroen Buters",
+                "url": "http://ectm.tudelft.nl/Education/bio.php?id=1251"
+            },
+            {
+                "name": "Mustafeez Bashir Shah",
+                "url": "http://ectm.tudelft.nl/Education/bio.php?id=1337"
+            },
+            {
+                "name": "Sohrab Ashraf",
+                "url": "http://ectm.tudelft.nl/Education/bio.php?id=1427"
+            }
+        ]
+    },
+    {
         "id": "440",
         "floor": "LB01",
         "members": [
             {
-                "name":"Shirley Knnan",
+                "name": "Shirley Kannan",
                 "url": "http://ectm.tudelft.nl/Education/bio.php?id=1292"
-            }    ,
+            },
             {
-                "name":"Filippo Pfaiffer",
+                "name": "Filippo Pfaiffer",
                 "url": "http://ectm.tudelft.nl/Education/bio.php?id=1346"
-            }    ,
+            },
             {
-                "name":"Samhitha Duvvuri",
+                "name": "Samhitha Duvvuri",
                 "url": "http://ectm.tudelft.nl/Education/bio.php?id=1419"
             },
             {
-                "name":"Nikhil Gupta",
+                "name": "Nikhil Gupta",
                 "url": "http://ectm.tudelft.nl/Education/bio.php?id=1349"
+            }
+        ]
+    },
+    {
+        "id": "470",
+        "floor": "LB01",
+        "members": [
+            {
+                "name": "Mattia Orvietani",
+                "url": "http://ectm.tudelft.nl/Education/bio.php?id=1428"
+            },
+            {
+                "name": "Francesco Stallone",
+                "url": "http://ectm.tudelft.nl/Education/bio.php?id=1426"
+            },
+            {
+                "name": "Matteo Pirro",
+                "url": "http://ectm.tudelft.nl/Education/bio.php?id=1425"
+            },
+            {
+                "name": "Paulus van der End",
+                "url": "http://ectm.tudelft.nl/Education/bio.php?id=1418"
+            },
+            {
+                "name": "Bart van der Wielen"
             }
         ]
     },
     {
         "id": "460",
         "floor": "LB01",
-        "members": [{ "name": "Social room" }]
+        "members": [
+            {
+                "name": "Social room"
+            }
+        ]
+    },
+    {
+        "id": "130",
+        "floor": "EKL01",
+        "members": [
+            {
+                "name": "Flex room"
+            }
+        ]
     },
     {
         "id": "140",
         "floor": "EKL01",
-        "members": [{ "name": "Flex room" }]
-    },
-    {
-        "id": "150",
-        "floor": "EKL01",
-        "members": [{ "name": "Flex room" }]
+        "members": [
+            {
+                "name": "Flex room"
+            }
+        ]
     }
 ]

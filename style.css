@@ -1,7 +1,7 @@
 /* 
  * Color overwrites
  */
-:root{
+:root {
     --header-back-color: #00A6D6;
     --header-fore-color: white;
     --button-hover-border-color: #017b9d;
@@ -11,14 +11,16 @@
 }
 
 header>.logo {
-    padding:var(--padding-global)
+    padding: var(--padding-global)
 }
 
 header>.row {
     padding: var(--padding-global);
 }
 
-.subtitle{
+.subtitle {
     margin-left: 0;
     padding-left: 0;
+    word-wrap: break-word;
+    white-space: normal;
 }
