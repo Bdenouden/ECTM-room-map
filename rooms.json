@@ -1,27 +1,5 @@
 [
     {
-        "id": "480",
-        "floor": "LB01",
-        "members": [
-            {
-                "name": "Bram den Ouden",
-                "url": "http://ectm.tudelft.nl/Education/bio.php?id=1345"
-            },
-            {
-                "name": "Michael Chengshang",
-                "url": "http://ectm.tudelft.nl/Education/bio.php?id=1293"
-            },
-            {
-                "name": "Samantha Rice",
-                "url": "http://ectm.tudelft.nl/Education/bio.php?id=1356"
-            },
-            {
-                "name": "Weiping Jiao",
-                "url": "http://ectm.tudelft.nl/Education/bio.php?id=1362"
-            }
-        ]
-    },
-    {
         "id": "450",
         "floor": "LB01",
         "members": [
@@ -105,6 +83,50 @@
             },
             {
                 "name": "Bart van der Wielen"
+            }
+        ]
+    },
+    {
+        "id": "480",
+        "floor": "LB01",
+        "members": [
+            {
+                "name": "Bram den Ouden",
+                "url": "http://ectm.tudelft.nl/Education/bio.php?id=1345"
+            },
+            {
+                "name": "Michael Chengshang",
+                "url": "http://ectm.tudelft.nl/Education/bio.php?id=1293"
+            },
+            {
+                "name": "Samantha Rice",
+                "url": "http://ectm.tudelft.nl/Education/bio.php?id=1356"
+            },
+            {
+                "name": "Weiping Jiao",
+                "url": "http://ectm.tudelft.nl/Education/bio.php?id=1362"
+            }
+        ]
+    },
+    {
+        "id": "490",
+        "floor": "LB01",
+        "members": [
+            {
+                "name": "Thomas Michalica",
+                "url": "http://ectm.tudelft.nl/Education/bio.php?id=1350"
+            },
+            {
+                "name": "Sophie den Boer",
+                "url": "http://ectm.tudelft.nl/Education/bio.php?id=1348"
+            },
+            {
+                "name": "Georgios Spernovasilis",
+                "url": "http://ectm.tudelft.nl/Education/bio.php?id=1358"
+            },
+            {
+                "name": "Jinglin Li",
+                "url": "http://ectm.tudelft.nl/Education/bio.php?id=1351"
             }
         ]
     },
